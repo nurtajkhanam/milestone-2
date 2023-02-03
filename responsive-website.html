@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    
+    .container img{
+      width: 100%;
+    }
+    .pic img {
+      width: 100%;
+    }
+    .test {
+      display: flex;
+
+    }
+    .test .pic{
+      width: 50%;
+    }
+
+    @media screen and (max-width: 577px) {
+      .test {
+        flex-direction: column-reverse;
+      }
+      .test .pic {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/tiger.webp" alt="">
+  </div>
+  <div class="test">
+    <div class="pic">
+      <img src="images/tiger.webp" alt="">
+    </div>
+    <div class="pic">
+      <img src="images/food.jpg" alt="">
+    </div>
+  </div>
+</body>
+</html>

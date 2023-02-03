@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5aa41af3c5.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <style>
+    nav a {
+      text-decoration: none;
+      color: darkslategrey;
+      margin-right: 10px;
+      
+    }
+    .login-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+    }
+  
+    .login {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      /* align-items: center; */
+    }
+    .login input {
+      margin-top: 3px;
+      padding: 5px 10px;
+    }
+    .login input[type= "submit"] {
+      background-color: cornflowerblue;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="">Home <i class="fa-solid fa-user"></i></a>
+    <a href="">Details</a>
+    <a href="">Inventory</a>
+    <a href="">Contact</a>
+  </nav>
+  <section class="login-container">
+    <form action="" class="login">
+      <h3>Please Log in</h3>
+      <input type="text" placeholder="Enter your E-mail">
+      <input type="text" placeholder="Enter your password">
+      <input type="submit" value="login">
+    </form>
+  </section>  
+</body>
+</html>
